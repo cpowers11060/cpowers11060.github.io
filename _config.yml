@@ -15,6 +15,7 @@ author :
   email : c-11060@uri.edu
   github : cpowers11060
   twitter : @cc_powers
+theme : minima
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
