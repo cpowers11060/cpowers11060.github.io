@@ -1,0 +1,20 @@
+  754  pelican-quickstart
+  755  pelican-quickstart
+  756  ls
+  757  less index.html 
+  758  git add .
+  759  git commit -m 'initial pelican commit to content'
+  760  git push token master
+  761  mkdir pages images
+  762  touch first-post.md
+  763  touch pages/about.md
+  764  nano first-post.md 
+  765  nano pages/about.md 
+  766  pelican content -o output -s publishconf.py
+  767  ls
+  768  mkdir content/images
+  769  pelican content -o output -s publishconf.py
+  770  ghp-import -m "Generate Pelican site" --no-jekyll -b master output
+  771  git push token master
+  772  history | tail -n20
+  773  history | tail -n20 > history_of_commands.tsv
